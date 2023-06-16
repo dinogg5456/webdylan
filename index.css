@@ -376,6 +376,7 @@ footer {
 .final .ademas p {
   font-size: 12px;
   color: #ffffff;
+  font-family: 'Poppins Medium', sans-serif;
 }
 @keyframes colorchange {
   0% {color: red;}
