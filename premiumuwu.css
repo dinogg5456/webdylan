@@ -1,0 +1,105 @@
+body {
+    background: #0B0A0D;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+/* Estilos básicos para el menú */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #09080F;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #a3a3a3;
+  }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  button {
+    background-color: #fc7a00; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(90deg, rgb(255, 81, 0), rgb(255, 187, 0));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-buttons {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.button {
+  background: linear-gradient(90deg, rgb(255, 81, 0), rgb(255, 187, 0));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #161616;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c2c2c;
+  border-radius: 20px;
+}
